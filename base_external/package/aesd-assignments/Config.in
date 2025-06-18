@@ -1,6 +1,14 @@
 
 config BR2_PACKAGE_AESD_ASSIGNMENTS
 	bool "aesd-assignments"
+	depends on BR2_LINUX_KERNEL
 	help
 	  Includes the writer executable, finder.sh and tester.sh in the kernel image.
 	  Used to understand buildroot external trees and package builds.
+
+config BR2_PACKAGE_USE_AESD_CHAR_DEVICE
+	bool "Use AESD Character Device"
+	default y
+	help
+	  Enables support for the AESD character device (assignments 5 and 6).
+	  If disabled, uses file-based logging instead of /dev/aesdchar.
