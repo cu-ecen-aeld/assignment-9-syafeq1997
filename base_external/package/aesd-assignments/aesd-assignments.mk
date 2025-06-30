@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = '819f8f3276575ccadc5fe9232e76da88643dae69'
+AESD_ASSIGNMENTS_VERSION = '77786552174d06adf073b38c23a7f8816a7dfe5a'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
@@ -17,7 +17,7 @@ AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
 AESD_ASSIGNMENTS_LICENSE = NONE
 
 # Use local source directory instead of downloading
-#AESD_ASSIGNMENTS_OVERRIDE_SRCDIR = local path
+#AESD_ASSIGNMENTS_OVERRIDE_SRCDIR = localpath
 #AESD_ASSIGNMENTS_SITE = .
 #AESD_ASSIGNMENTS_SITE_METHOD = local
 #AESD_ASSIGNMENTS_SOURCE = dummy
